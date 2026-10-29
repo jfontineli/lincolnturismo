@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+*.log
+contact-sheet.jpg
+video-sheet.jpg
+# Originais não devem ir para um repositório público (incluem endereço residencial).
+/WhatsApp*
