@@ -1,6 +1,6 @@
 # Lincoln Turismo — primeira versão
 
-Site institucional responsivo, sem login ou dependência de backend. HTML, CSS e JavaScript; imagens WebP e vídeos carregados sob demanda. Contatos confirmados: **(64) 99646-5656** e **lincolnturismo@gmail.com**. Base em Maceió, atendimento por Alagoas.
+Site institucional responsivo, sem login ou dependência de backend. HTML, CSS e JavaScript; imagens WebP e vídeos carregados sob demanda. Contatos confirmados: **(64) 99646-5656** e **lincolnturismoalagoas@gmail.com**. Base em Maceió, atendimento por Alagoas.
 
 Repositório: https://github.com/jfontineli/lincolnturismo — branch principal `main`. Para hospedar no Cloudflare Pages, use o diretório de saída `site`, conforme [PUBLICACAO.md](PUBLICACAO.md).
 

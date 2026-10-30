@@ -29,7 +29,7 @@ try {
  await page.evaluate(()=>{window.open=(url)=>{window.__opened=url;return null;};});
  await page.locator('.form-submit').click();
  const target=await page.evaluate(()=>window.__opened);assert(target.startsWith('https://wa.me/5564996465656?text='));assert(decodeURIComponent(target).includes('Maragogi'));
- await page.locator('button[value="email"]').click({noWaitAfter:true});assert((await page.locator('#form-status a').getAttribute('href')).startsWith('mailto:lincolnturismo@gmail.com?'));
+ await page.locator('button[value="email"]').click({noWaitAfter:true});assert((await page.locator('#form-status a').getAttribute('href')).startsWith('mailto:lincolnturismoalagoas@gmail.com?'));
  await page.locator('#privacy-open').click();assert(await page.locator('#privacy-dialog').isVisible());await page.keyboard.press('Escape');
  for(const width of [390,320,768]){
   await page.setViewportSize({width,height:844});await page.goto('http://127.0.0.1:4175',{waitUntil:'networkidle'});

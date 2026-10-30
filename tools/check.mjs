@@ -15,6 +15,6 @@ assert.equal(fs.readdirSync(path.join(root,'assets/videos')).length,27);
 assert.equal(fs.readdirSync(path.join(root,'assets/posters')).length,27);
 const ctx={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'config.js'),'utf8'),ctx);
 assert.equal(ctx.window.LINCOLN.whatsapp,'5564996465656');
-assert.equal(ctx.window.LINCOLN.email,'lincolnturismo@gmail.com');
+assert.equal(ctx.window.LINCOLN.email,'lincolnturismoalagoas@gmail.com');
 assert(!html.includes('Elias Damas'),'Endereço privado na página');
 console.log('OK: arquivos, âncoras, contatos, 27 vídeos e 27 capas.');
