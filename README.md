@@ -4,7 +4,11 @@ Site institucional responsivo, sem login ou dependência de backend. HTML, CSS e
 
 Repositório: https://github.com/jfontineli/lincolnturismo — branch principal `main`. Para hospedar no Cloudflare Pages, use o diretório de saída `site`, conforme [PUBLICACAO.md](PUBLICACAO.md).
 
-Instagram: https://www.instagram.com/lincolnturismoalagoas/. A apresentação destaca o credenciamento informado pelo responsável e o vídeo de convite para Alagoas.
+Instagram: https://www.instagram.com/lincolnturismoalagoas/. A apresentação destaca o credenciamento informado pelo responsável e o vídeo de convite para Alagoas. O atendimento inclui Alagoas e Pernambuco, conforme confirmado pelo responsável.
+
+## Identidade visual
+
+O site usa a reprodução aprovada do logotipo enviado por Lincoln (`site/assets/logo-lincoln.png`), com azul oceano, turquesa e amarelo. Essa imagem foi reconstruída a partir de uma captura e não constitui vetorização exata do original. O favicon é uma versão simplificada do sol e da onda. O botão flutuante de WhatsApp mantém a cor verde para identificação do canal.
 
 ## Visualizar
 

@@ -1,5 +1,5 @@
 const config = window.LINCOLN;
-const genericMessage = 'Olá, Lincoln! Vim pelo site e gostaria de planejar minha viagem por Alagoas.';
+const genericMessage = 'Olá, Lincoln! Vim pelo site e gostaria de planejar minha viagem por Alagoas e Pernambuco.';
 document.querySelectorAll('[data-whatsapp]').forEach(a => a.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(genericMessage)}`);
 document.querySelector('#year').textContent = new Date().getFullYear();
 const menuButton = document.querySelector('.menu-toggle');
@@ -51,7 +51,7 @@ function showMedia(item) {
   if (item.type === 'video') { element.controls = true; element.playsInline = true; element.preload = 'metadata'; element.poster = item.poster; }
   else element.alt = item.title;
   content.append(element);
-  document.querySelector('#media-caption').textContent = (item.title.includes('Pernambuco') ? 'Registro do acervo em Pernambuco. Para destinos fora de Alagoas, consulte Lincoln. ' : 'Registro do acervo da Lincoln Turismo. ') + 'Valores e ofertas eventualmente exibidos nos vídeos são da época da gravação. Consulte condições e disponibilidade atuais com Lincoln.';
+  document.querySelector('#media-caption').textContent = (item.title.includes('Pernambuco') ? 'Praia dos Carneiros, Pernambuco. Consulte Lincoln para incluir este destino no seu roteiro. ' : 'Registro do acervo da Lincoln Turismo. ') + 'Valores e ofertas eventualmente exibidos nos vídeos são da época da gravação. Consulte condições e disponibilidade atuais com Lincoln.';
   showDialog(mediaDialog);
 }
 function renderGallery() {
